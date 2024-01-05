@@ -39,3 +39,17 @@ const swiper = new Swiper('.swiper', {
         hide: true,  
       },
   });
+
+//   scrolltrigger
+let t1 = gsap.timeline({
+    scrollTrigger:{
+        trigger: ".page6",
+        start:"10% 10%",
+        end:"120% 50%",
+        marker:true,
+        scrub:1,
+    }
+})
+t1.to(".head-hover",{
+    width:"100%"
+})

@@ -383,5 +383,29 @@ body{
         width: 10vw;
   }
 .page6{
-    height: 100vh;
+    
+   min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.head{
+    font-size: 8rem;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    opacity: 0.3;
+    width: 100%;
+    
+}
+.head-hover{
+    font-size: 8rem;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    width:  1%;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
 }
