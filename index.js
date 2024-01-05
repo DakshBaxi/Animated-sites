@@ -46,7 +46,7 @@ let t1 = gsap.timeline({
         trigger: ".page6",
         start:"10% 10%",
         end:"120% 50%",
-        marker:true,
+        markers:true,
         scrub:1,
     }
 })

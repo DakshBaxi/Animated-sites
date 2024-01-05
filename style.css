@@ -395,17 +395,17 @@ body{
     position: absolute;
     left: 10%;
     top: 30%;
-    opacity: 0.3;
+    opacity: 1;
     width: 100%;
-    
 }
 .head-hover{
     font-size: 8rem;
     position: absolute;
     left: 10%;
     top: 30%;
-    width:  1%;
+    width:  0%;
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
+    color: #fd2a00;
 }
